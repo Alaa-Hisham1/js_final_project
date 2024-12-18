@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy-mine</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="yummy.css">
+    <!-- title img -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="nav-details">
+        <div class="options">
+            <ul>
+                <li id="search">Search</li>
+                <li id="categories">Categories</li>
+                <li id="areas">Areas</li>
+                <li id="ingredients">Ingrediants</li>
+                <li id="contact">Contact Us</li>
+            </ul>
+        </div>
+        <div class="info">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe d-block"></i>
+            <p>Copyright Â© 2019 All Rights
+                Reserved.</p>
+        </div>
+    </div>
+    <div class="nav-interface">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="open-close">
+            <!-- open icon -->
+            <i class="fa-solid fa-bars open"></i>
+            <!-- close icon -->
+            <i class="fa-solid open-close-icon fa-2x fa-x close"></i>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+    <div class="conatiner">
+        <div class="search">
+            <input type="text" placeholder="  Search By Name" id="in1">
+            <input type="text" placeholder="  Search By First Letter" id="in2">
+        </div>
+        <div class="home">
+    
+            <div class="item">
+                <div class="layer">
+                    <h3>sushi</h3>
+                </div>
+                <img src="images/58oia61564916529.jpg" alt="">
+            </div>
+        </div>
+        <div class="area">
+            <div class="item">
+                <i class="fa-solid fa-house-laptop fa-4x"></i>
+                <h3>American</h3>
+            </div>
+        </div>
+        <div class="ingredients">
+            <div class="item">
+                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, laudantium!</p>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="item">
+                <input type="text" placeholder="  Enter Your Name" id="name">
+            <div class="alert" id="nameAlert">
+                <p>Special characters and numbers not allowed</p>
+            </div>
+            </div>
+            <div class="item">
+                <input type="text" placeholder="  Enter Your Email" id="email">
+            <div class="alert" id="emailAlert">
+                <p>Email not valid *exemple@yyy.zzz</p>
+            </div>
+            </div>
+            <div class="item">
+                <input type="text" placeholder="  Enter Your Phone" id="phone">
+            <div class="alert" id="phoneAlert">
+                <p>Enter valid Phone Number</p>
+            </div>
+            </div>
+            <div class="item">
+                <input type="text" placeholder="  Enter Your Age" id="age">
+            <div class="alert" id="ageAlert">
+                <p>Enter valid age</p>
+            </div>
+            </div>
+            <div class="item">
+                <input type="password" placeholder="  Enter Your Passward" id="pass">
+            <div class="alert" id="passwordAlert">
+                <p>Special characters and numbers not allowed</p>
+            </div>
+            </div>
+            <div class="item">
+                <input type="password" placeholder="  Repassward" id="repass">
+            <div class="alert" id="repasswordAlert">
+                <p>Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="yummy.js"></script>
+</body>
+
+</html>
